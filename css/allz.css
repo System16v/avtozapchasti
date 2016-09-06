@@ -1,0 +1,37 @@
+.inf{
+    width: 425px;
+}
+.allzak{
+    padding-left: 250px;
+    border-radius:15px;
+    min-height: 779px;
+    max-height: 100%;
+}
+.tallz{
+    padding-left: 160px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Monotype Corsiva";
+}
+.tzone{
+    padding-left: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Monotype Corsiva";
+}
+.tblz{
+    position: absolute;
+    margin-left: -250px;
+
+}
+
+.table_blur td.opis2{
+    width: 418px;
+}
+.save{
+    padding-left: 420px;
+}
+.sr{
+    color: #dc0006;
+    font-weight: bold;
+}

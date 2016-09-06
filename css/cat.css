@@ -1,0 +1,203 @@
+#cat{
+    width: 100%;
+    min-height: 800px;
+    max-height: 100%;
+}
+#catt{
+    margin-left: 400px;
+    font-family: "Monotype Corsiva";
+    font-size: 30px;
+    font-weight: bold;
+}
+#attn{
+    color: #dc0006;
+    text-align: center;
+    margin-top: -15px;
+}
+
+.tovarik{
+    margin-top: 10px;
+    width: 952px;
+    z-index: 4;
+}
+
+.tovarik td{
+    text-align: center;
+    border: 1px solid;
+}
+
+.md{
+    width: 100px;
+}
+.kolich{
+    width: 68px;
+}
+.fr{
+    text-align: center;
+}
+.summ{
+    margin-left: 707px;
+}
+.delall{
+    margin-left: 10px;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #0f8dff),color-stop(1, #001e93));
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-box-shadow: 0px 0px 30px #001e93;
+    -webkit-box-shadow: 0px 0px 30px #001e93;
+    box-shadow: 0px 0px 30px #001e93;
+	background: linear-gradient(#0F8DFF,#001E93);
+}
+.prsch{
+    margin-left: 10px;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #0f8dff),color-stop(1, #001e93));
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-box-shadow: 0px 0px 30px #001e93;
+    -webkit-box-shadow: 0px 0px 30px #001e93;
+    box-shadow: 0px 0px 30px #001e93;
+	background: linear-gradient(#0F8DFF,#001E93);
+}
+.zakazat{
+    margin-left: 180px;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #0f8dff),color-stop(1, #001e93));
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-box-shadow: 0px 0px 30px #001e93;
+    -webkit-box-shadow: 0px 0px 30px #001e93;
+    box-shadow: 0px 0px 30px #001e93;
+	background: linear-gradient(#0F8DFF,#001E93);
+}
+.summof{
+    margin-left: 380px;
+}
+.summa{
+    float:left;
+    margin-top: -17px;
+    margin-left: 500px;
+    font-weight: bold;
+}
+.sm{
+    width:50px;
+    float:left;
+    margin-top:-17px;
+}
+.ofz{
+    font-family: Monotype Corsiva;
+    margin-left: 90px;
+    font-size: 30px;
+    color: #b0d157 !important;
+}
+.ofzk{
+    margin-top: -35px;
+}
+.ofn{
+    width: 87px;
+    padding-top:20px;
+}
+.ofnf{
+    width: 300px;
+}
+.ofnfe{
+    color: red;
+}
+.ofp{
+    padding-top: 22px;
+}
+.ofpe{
+    width: 450px;color: red;
+}
+.ofd{
+    width: 200px;
+}
+.dost{
+    position: absolute;
+    margin-top:115px;
+}
+.addr{
+    width: 82px;
+}
+.addrt{
+    width: 360px;
+}
+.txar{
+    width: 164px;
+    height: 60px;
+}
+.comm{
+    width: 164px;
+    height: 80px;
+}
+.podt{
+    margin-left: 150px;
+    margin-top: 30px;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #0f8dff),color-stop(1, #001e93));
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-box-shadow: 0px 0px 30px white;
+    -webkit-box-shadow: 0px 0px 30px white;
+    box-shadow: 0px 0px 30px white;
+	background: linear-gradient(#0F8DFF,#001E93);
+}
+.zkaz{
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #0f8dff),color-stop(1, #001e93));
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-box-shadow: 0px 0px 30px white;
+    -webkit-box-shadow: 0px 0px 30px white;
+    box-shadow: 0px 0px 30px white;
+	background: linear-gradient(#0F8DFF,#001E93);
+}
+.ok{
+    position:absolute;
+    width:931px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: 'Monotype Corsiva';
+    font-size: 21px;
+    font-weight: bold;
+}
+.zak{
+    font-family: 'Monotype Corsiva';
+    margin-left: 170px;
+    font-size: 30px;
+    color: #b0d157;
+}
+.zkz{
+    margin-top: -45px;
+}
+.zim{
+    width: 88px;
+    padding-top:20px;
+}
+.zph{
+    padding-top:20px;
+}
+.zkad{
+    position: absolute;
+    margin-top:115px;
+}
+.zkadt{
+    width:360px;
+}

@@ -1,0 +1,384 @@
+@charset "utf-8"; 
+
+body{
+    background-image: url(/img/bg.gif);
+    width: 100%;
+	margin: 0 auto;
+    position: relative;
+}
+
+.logo{
+    width:1250px;
+    height: 213px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.prt{
+	width:200px;
+	text-align:center;
+}
+.ext{
+	width:200px;
+	text-align:center;
+}
+.logo-t{
+    width: 505px;
+    position: absolute;
+    font-family: "Monotype Corsiva";
+    color: #b0d157;
+    left: 785px;
+    top:97px;
+    font-size: 50px;
+    -webkit-user-select: none; /* запрещает выделение текста */
+    -moz-user-select: none;
+}
+.t{
+    padding-left: 110px;
+}
+#korzina{
+    position: absolute;
+    left:1230px;
+    top: 245px;
+    color: #b0d157;
+}
+
+#k{
+    width: 100px;
+    position: absolute;
+    margin-left: -115px;
+    margin-top: -3px;
+}
+
+#content{
+    width: 952px;
+    min-height: 821px;
+    max-height: 100%;
+    margin-left: 337px;
+    margin-top: -819px;
+    background-image: url(/img/contetnt.png);
+    box-shadow: 0 0 5px 5px rgba(15, 15, 15, 0.5);
+    border-radius: 15px;
+}
+
+#shapka{
+    position: absolute;
+    width: 952px;
+    height: 41px;
+    font-size: 12px;
+    background-image: url(/img/sh.png) ;
+    border-radius: 13px 13px 0 0;
+}
+
+#shapka a{
+    font-size: 12px;
+}
+
+#shapka a:hover{
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+#shapka a.vd{
+    color: #eeeeee;
+    text-decoration: none;
+}
+#search {
+    margin-top: 15px;
+    color: #6B6B6B;
+}
+
+.ft{
+    margin-top: 20px;
+    margin-left: 560px;
+    color: #b0d157;
+    font-size: 15px;
+}
+
+.table_blur td.opis{
+    width:442px;
+}
+
+#foto{
+    text-align: center;
+}
+
+#fotob{
+    position: absolute;
+}
+
+.addt{
+    margin-top:0px;
+
+}
+.db{
+    width: 500px;
+    padding-left: 300px;
+}
+.dbt{
+   padding-left: 110px;
+    font-weight: bold;
+}
+.zakaz{
+    width: 100%;
+}
+
+.zkzt{
+    padding-left: 390px;
+    font-family: "Monotype Corsiva";
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.knz{
+    padding-left: 160px;
+}
+
+.forma{
+    margin-left: 255px;
+    margin-top: -15px;
+    background: linear-gradient(#000955,#001e93);
+    width: 430px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    color: #d9d9d9;
+    border-radius: 15px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+.delal{
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #0f8dff),color-stop(1, #001e93));
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-box-shadow: 0px 0px 30px #001e93;
+    -webkit-box-shadow: 0px 0px 30px #001e93;
+    box-shadow: 0px 0px 30px #001e93;
+	background: linear-gradient(#000955,#001e93);
+}
+.dbtv{
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #0f8dff),color-stop(1, #001e93));
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+	margin-left:120px;
+	margin-top:10px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-box-shadow: 0px 0px 30px #001e93;
+    -webkit-box-shadow: 0px 0px 30px #001e93;
+    box-shadow: 0px 0px 30px #001e93;
+	background: linear-gradient(#000955,#001e93);
+}
+
+.tt{
+    position: absolute;
+    width: 350px;
+    height: 150px;
+    padding-top: 20px;
+    padding-left: 30px;
+    margin-top: 20px;
+    margin-left: 290px;
+    background-color: #001e93;
+    border-radius: 15px;
+    color: white;
+}
+
+.knp{
+    padding-top: 10px;
+    padding-left: 120px;
+}
+
+.dl{
+    float: left;
+    width: 569px;
+    padding-left: 393px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.clear{
+    clear: both;
+}
+.user{
+    padding-left: 50px;
+}
+.allz{
+    padding-left: 60px;
+}
+.paginator{
+    font-size: 17px;
+}
+
+.paginator_n{
+    width: 942px;
+    height: 37px;
+    padding-left: 10px;
+    padding-top: 5px;
+    color: #b0d157;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 0 0 15px 15px;
+    background-image: url(/img/sh.png) ;
+}
+
+.paginator_n a{
+    color: #b0d157;
+}
+.tb{
+    width: 600px;
+    font-size: 18px;
+    padding-top: 17px;
+    padding-left: 25px;
+}
+.tb a{
+    font-size: 18px !important;
+    color: #b0d157;
+}
+
+.tg{
+    position: absolute;
+    height: 789px;
+    width: 952px;
+    padding-top: 30px;
+    font-size: 35px;
+    text-align: center;
+    font-family: "Monotype Corsiva";
+    color: #1c1c1c;
+	font-weight: bold;
+    border-radius: 14px 14px 14px 14px;
+}
+.tgt{
+    text-align: left;
+    padding-left: 70px;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.pay{
+    height: 819px;
+    width: 952px;
+    position: absolute;
+    font-size: 35px;
+    text-align: center;
+    font-family: "Monotype Corsiva";
+    color: #1c1c1c;
+    font-weight: bold;
+    border-radius: 14px 14px 14px 14px;
+}
+.payt{
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+    font-family: Verdana;
+}
+.sk{
+    position: absolute;
+    margin-left: 385px;
+}
+.ph{
+    position: absolute;
+    margin-left: 365px;
+}
+.em{
+    position: absolute;
+    margin-left: 385px;
+}
+.of{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 15px;
+    text-align: left;
+    font-family: Verdana;
+}
+.news{
+    min-height: 779px;
+    max-height: 100%;
+    width: 951px;
+    font-size: 35px;
+    text-align: center;
+    font-family: "Monotype Corsiva";
+    color: #1c1c1c;
+    font-weight: bold;
+    border-radius: 14px 14px 0 0;
+}
+
+.newst{
+    width: 898px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 20px;
+    font-family: Verdana;
+    font-weight: normal;
+}
+.date{
+    font-size: 15px;
+    text-align: right;
+}
+
+/* ----------------------------------------------- Перенесенные стили из tpl ---------------------------------------- */
+
+.sreg{
+    position: absolute;
+    padding-left: 65px;
+    margin-top: -25px;
+}
+.sreg h1{
+    color: red;
+}
+
+.srpswd{
+    position: absolute;
+    padding:10px 10px 0 120px;
+    margin-top: -25px;
+}
+.srpswd h3{
+    color: red;
+}
+
+.sokrpswd{
+    position: absolute;
+    padding:10px 10px 0 310px;
+    margin-top: -31px;
+}
+.sokrpswd h2{
+    color: red;
+}
+
+.tov{
+    color: #b0d157;
+}
+
+.addt{
+    padding-top: 5px;
+}
+
+.addtn{
+    width: 110px;
+}
+
+.poisk{
+    padding-left: 30px;
+}
+
+.goods{
+    padding-top: 40px;
+    width: 952px;
+    min-height: 739px;
+    max-height: 100%;
+}
+.activereg{
+    position: absolute;
+    margin-top: -22px;
+    padding-left: 320px;
+    font-family: 'Monotype Corsiva';
+}
+.activereg h1{
+    color: red;
+}
+.lge{
+    padding-left: 140px;
+}

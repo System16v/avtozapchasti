@@ -1,0 +1,119 @@
+/* --------------------------
+AUTHOR : STYLED MENUS
+URL : http://www.styledmenus.com
+Copyrights by STYLED MENUS
+----------------------------*/
+
+	#menu{
+		width:250px;
+		height: 100%;
+		margin-left:42px;
+		margin-top: 27px;
+		border-radius: 15px 15px 15px 15px;
+		box-shadow: 0 0 5px 5px rgba(15, 15, 15, 0.5);
+
+	}
+		#menu ul{
+			list-style:none;
+			padding: 0px;
+			margin: 0px;
+		}
+			#menu li{
+				list-style:none;
+				display:block;
+				background:url(/img/menu_024_bg1.jpg) no-repeat;
+				text-indent:40px;
+				font-family: "Monotype Corsiva";
+				font-size: 13px;
+			}
+				#menu li a{
+					list-style:none;
+					display:block;
+					color:#ccc;
+					text-transform:uppercase;
+					font-size:13px;
+					text-decoration:none;
+					height:41px;
+					line-height:41px;
+					font-family: Serif;
+				}
+					#menu li a:hover{
+						background:url(/img/menu_024_h2.jpg) no-repeat;
+						height:41px;
+						line-height:41px;
+						color:#b0d157;
+						text-decoration:none;
+						font-family: Serif;
+					}
+					#menu li a.current, #menu li a:hover.current{
+						list-style:none;
+						display:block;
+						background:url(/img/menu_024_h2.jpg) no-repeat;
+						color:#b0d157;
+						text-transform:uppercase;
+						font-size:13px;
+						text-decoration:none;
+						height:41px;
+						line-height:41px;
+						font-family: Serif;
+						font-weight: bold;
+					}
+
+					#menu li.first{
+						height:41px;
+						line-height:41px;
+						color:#b0d157;
+						text-decoration:none;
+						font-family: "Monotype Corsiva" !important;
+						border-radius: 15px 15px 0 0;
+					}
+
+					#menu li.first a.ktl{
+						font-family: "Monotype Corsiva" !important;
+						font-size: 18px;
+						letter-spacing: 0.5px;
+					}
+
+
+					#menu li.first a.current{
+						border-radius: 15px 15px 0 0;
+						font-size: 18px !important;
+						font-family: 'Monotype Corsiva' !important;
+						letter-spacing: 0.5px;
+					}
+
+					#menu li.first a.unc{
+						border-radius: 15px 15px 0 0;
+						font-size: 18px !important;
+						font-family: 'Monotype Corsiva' !important;
+						letter-spacing: 0.5px;
+					}
+
+					#menu li.first a:hover{
+						background:url(/img/menu_024_h2.jpg) no-repeat;
+						height:41px;
+						line-height:41px;
+						color:#b0d157;
+						text-decoration:none;
+						font-family: Serif;
+						border-radius: 15px 15px 0 0;
+					}
+
+					#menu li.end{
+						border-radius: 0 0 15px 15px;
+					}
+
+					#menu li.end a:hover{
+						background:url(/img/menu_024_h2.jpg) no-repeat;
+						height:41px;
+						line-height:41px;
+						color:#b0d157;
+						text-decoration:none;
+						font-family: Serif;
+						border-radius: 0 0 15px 15px;
+					}
+
+					#menu li.end a.current{
+						border-radius: 0 0 15px 15px;
+					}
+

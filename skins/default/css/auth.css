@@ -1,0 +1,90 @@
+.auth{
+    width: 186px;
+    color: #b0d157;
+    font-family: "Monotype Corsiva";
+    position: absolute;
+    left:560px;
+    top:121px;
+    font-size: 17px;
+}
+
+.auth span{
+    text-decoration: underline;
+}
+.auth span:hover{
+    text-decoration: none;
+}
+.auth a{
+    color: #b0d157;
+    text-decoration: underline;
+}
+.auth a:hover{
+    text-decoration: none;
+}
+
+#at{
+    position: absolute;
+    width: 440px;
+    height: 155px;
+    margin-left: 100px;
+    margin-top:-185px;
+    border-radius: 15px;
+    background-image: url(/img/bg.png);
+    z-index: 2;
+}
+
+.er{
+    position: absolute;
+    margin-top: -2px;
+    margin-left: 100px;
+}
+
+.tch{
+    position: absolute;
+    margin-left: 310px;
+    margin-top: -26px;
+    color: #00A2D3;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.check{
+    position: absolute;
+    margin-top: 1px;
+}
+
+#rpass{
+    position: absolute;
+    width: 440px;
+    height: 155px;
+    margin-left: 100px;
+    margin-top:-185px;
+    border-radius: 15px;
+    background-image: url(/img/bg.png);
+    z-index: 2;
+}
+
+#rpass2{
+    position: absolute;
+    width: 440px;
+    height: 155px;
+    margin-left: 100px;
+    margin-top:-185px;
+    border-radius: 15px;
+    background-image: url(/img/bg.png);
+    z-index: 2;
+}
+
+.errors{
+    font-size: 20px;
+    color: red;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.zkr{
+    position: absolute;
+    margin-left: 435px;
+    margin-top: -158px;
+}

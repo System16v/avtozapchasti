@@ -1,0 +1,126 @@
+.table_blur {
+    background: #ebf3f9;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.table_blur th.n{
+    min-width: 20px;
+    max-width: 100%;
+}
+.table_blur th.f{
+    min-width: 45px;
+    max-width: 100%;
+}
+.table_blur th.b{
+    min-width: 63px;
+    max-width: 100%;
+}
+.table_blur th.opis{
+    min-width: 260px;
+}
+.table_blur th.m{
+    min-width: 90px;
+}
+.table_blur th.c{
+    min-width: 69px;
+    max-width: 100%;
+}
+.table_blur th.nal{
+    min-width: 65px;
+    max-width: 100%;
+}
+.table_blur th.cat{
+    min-width: 75px;
+    max-width: 100%;
+}
+.table_blur td.n{
+    min-width: 43px;
+    max-width: 100%;
+}
+.table_blur td.f{
+    min-width: 45px;
+    max-width: 100%;
+    text-align: center;
+}
+.table_blur td.b{
+    min-width: 63px;
+    max-width: 100%;
+    text-align: center;
+}
+.table_blur td.m{
+    min-width: 89px;
+    max-width: 100%;
+    text-align: center;
+}
+.table_blur td.c{
+    min-width: 69px;
+    max-width: 100%;
+    text-align: center;
+}
+.table_blur td.nal{
+    text-align: center;
+}
+.table_blur td.cat{
+    min-width: 73px;
+    text-align: center;
+}
+.table_blur td.sp{
+    text-align: center;
+}
+.table_blur td.no{
+    min-width: 137px;
+    text-align: center;
+}
+.table_blur td.ops{
+    width: 630px;
+}
+.table_blur td.oplata{
+    text-align: center;
+    color: red;
+}
+.table_blur th {
+    border-top: 1px solid #777777;
+    border-bottom: 1px solid #777777;
+    box-shadow: inset 0 1px 0 #999999, inset 0 -1px 0 #999999;
+    background: linear-gradient(#001e93, #000955);
+    color: #b0d157;
+    padding: 10px 15px;
+    position: relative;
+    text-align: center;
+}
+.table_blur th:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 25%;
+    height: 25%;
+    width: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255,255,255,.08));
+}
+
+.table_blur th:first-child {
+    border-left: 1px solid #777777;
+    border-bottom:  1px solid #777777;
+    box-shadow: inset 1px 1px 0 #999999, inset 0 -1px 0 #999999;
+}
+.table_blur th:last-child {
+    border-right: 1px solid #777777;
+    border-bottom:  1px solid #777777;
+    box-shadow: inset -1px 1px 0 #999999, inset 0 -1px 0 #999999;
+}
+.table_blur td {
+    border: 1px solid #e3eef7;
+    padding: 8px 15px;
+    position: relative;
+    transition: all 0.5s ease;
+}
+/*.table_blur tbody:hover td {
+    color: transparent;
+    text-shadow: 0 0 3px #a09f9d;
+}*/
+.table_blur tbody:hover tr:hover td {
+    color: #444444;
+    text-shadow: none;
+}
